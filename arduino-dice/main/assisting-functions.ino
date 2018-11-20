@@ -59,8 +59,8 @@ void drawScore(int value) {
 
 void draw(int value) {
   
-  // Set font to Helvetica size 10
-  oled.setFont(u8g_font_helvB10);
+  // Set font to Helvetica size 14
+  oled.setFont(u8g_font_helvB14);
   
   // Calculate line height
   int lineHeight = oled.getFontAscent()-oled.getFontDescent();  
@@ -79,8 +79,8 @@ void draw(int value) {
 
 void drawMessageHelper(char message[]) {
   
-  // Set font to Helvetica size 10
-  oled.setFont(u8g_font_helvB14);
+  // Set font to Helvetica size 18
+  oled.setFont(u8g_font_helvB18);
   
   // Calculate line height
   int lineHeight = oled.getFontAscent()-oled.getFontDescent();  
