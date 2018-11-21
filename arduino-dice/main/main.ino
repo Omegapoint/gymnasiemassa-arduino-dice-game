@@ -27,7 +27,7 @@ Adafruit_TiCoServo servo; // Create new servo object
 
 // Variables with game-related information
 int currentScore = 0;
-int winningScore = 16;
+int winningScore = 18;
 int currentNumberThrows = 0;
 char line1[] = "Score:";
 
